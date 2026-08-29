@@ -13,3 +13,21 @@ ai/model_weights.dat
 ai/vocab.dat
 ai/word.bin
 ai/base_model.py
+
+# AI generated / local artifacts
+ai/**/__pycache__/
+ai/**/*.pyc
+ai/**/*.db
+ai/**/*.sqlite
+ai/**/*.sqlite3
+ai/**/*.pkl
+ai/**/*.bin
+ai/**/*.dat
+ai/**/*.weights
+ai/**/*.pt
+ai/**/*.pth
+
+# AI local secrets/config
+ai/**/.env
+ai/**/.env.*
+!ai/**/.env.example
