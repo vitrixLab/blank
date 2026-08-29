@@ -1,1 +1,16 @@
 ai/base_model.pyai/base_model.py
+# Environment files
+.env
+.env.example
+
+# OX CLI directory
+.ox/
+
+# Sensitive AI files (keep other ai/ files trackable)
+ai/.env
+ai/archive/
+ai/base_model.py
+ai/gpt_model
+ai/model_weights.dat
+ai/vocab.dat
+ai/word.bin
