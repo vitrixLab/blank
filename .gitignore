@@ -1,1 +1,15 @@
-ai/base_model.pyai/base_model.py
+# Environment files (secrets)
+.env
+.env.example
+
+# OX local config
+.ox/
+
+# Sensitive files inside ai/ (not the whole folder)
+ai/.env
+ai/archive/
+ai/gpt_model
+ai/model_weights.dat
+ai/vocab.dat
+ai/word.bin
+ai/base_model.py
