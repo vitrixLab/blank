@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universal AI Workflow</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="mark">◈</span><div><strong>JARVIS</strong><small>Universal Workflow</small></div></div>
+    <nav>
+      <a class="active" href="#dashboard">Overview</a>
+      <a href="#leads">Lead Queue</a>
+      <a href="#approval">Human Approval</a>
+      <a href="#feedback">Feedback Loop</a>
+      <a href="#config">Business Config</a>
+    </nav>
+    <div class="pilot"><small>ACTIVE PILOT</small><strong>Staging / Event Production</strong><span>Workflow v1.0</span></div>
+  </aside>
+
+  <main>
+    <header>
+      <div><p class="eyebrow">FOUNDATION ITERATION</p><h1 id="dashboard">Universal AI Business Workflow</h1><p class="muted">One reusable workflow. Multiple business configurations.</p></div>
+      <button id="newLead">+ Simulate Lead</button>
+    </header>
+
+    <section class="metrics" aria-label="Pilot metrics">
+      <article><span>Qualified Leads</span><strong id="qualified">18</strong><small>Score ≥ 70</small></article>
+      <article><span>Pending Approval</span><strong id="pendingCount">3</strong><small>Human decision required</small></article>
+      <article><span>Approval Rate</span><strong>74%</strong><small>Target ≥ 70%</small></article>
+      <article><span>Appointments</span><strong>4</strong><small>Pilot tracking</small></article>
+    </section>
+
+    <section class="workflow-card">
+      <div class="section-heading"><div><p class="eyebrow">CORE CONTRACT</p><h2>Workflow Pipeline</h2></div><span class="status">Reusable Engine</span></div>
+      <div class="pipeline" id="pipeline">
+        <button data-stage="discovery">1 <span>Discovery</span></button>
+        <i>→</i><button data-stage="collection">2 <span>Collect</span></button>
+        <i>→</i><button data-stage="research">3 <span>Research</span></button>
+        <i>→</i><button data-stage="scoring" class="selected">4 <span>Score</span></button>
+        <i>→</i><button data-stage="approval">5 <span>Approve</span></button>
+        <i>→</i><button data-stage="outreach">6 <span>Outreach</span></button>
+        <i>→</i><button data-stage="followup">7 <span>Follow-up</span></button>
+        <i>→</i><button data-stage="outcome">8 <span>Outcome</span></button>
+        <i>→</i><button data-stage="feedback">9 <span>Feedback</span></button>
+      </div>
+      <p id="stageDescription">AI scoring produces a numeric rating, confidence, and explainable rationale before human approval.</p>
+    </section>
+
+    <section class="grid">
+      <article class="panel" id="leads">
+        <div class="section-heading"><div><p class="eyebrow">STAGING PILOT</p><h2>AI Lead Queue</h2></div><button class="ghost">View all</button></div>
+        <div id="leadList"></div>
+      </article>
+
+      <article class="panel approval" id="approval">
+        <div class="section-heading"><div><p class="eyebrow">HUMAN-IN-THE-LOOP</p><h2>Approval Review</h2></div><span class="status warning">Action needed</span></div>
+        <div id="approvalPanel"></div>
+      </article>
+    </section>
+
+    <section class="grid bottom">
+      <article class="panel" id="feedback">
+        <p class="eyebrow">AUDITABLE FEEDBACK</p><h2>Decision Timeline</h2>
+        <ul class="timeline">
+          <li><b>AI scored Riverlight Festival</b><span>92 / 100 · confidence 88%</span></li>
+          <li><b>Research signals attached</b><span>Budget, event scale, vendor activity</span></li>
+          <li><b>Human review required</b><span>Draft ready for approval</span></li>
+        </ul>
+      </article>
+      <article class="panel" id="config">
+        <p class="eyebrow">CONFIGURATION, NOT FORKS</p><h2>Active Business Profile</h2>
+        <pre>business: staging
+industries: [events, churches, municipalities]
+ideal_lead_score: 80
+crm: ghl
+approval_required: true</pre>
+      </article>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
