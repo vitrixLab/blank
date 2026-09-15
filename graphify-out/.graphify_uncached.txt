@@ -1,0 +1,5 @@
+C:\citrixlabph\blank\.agents\rules\graphify.md
+C:\citrixlabph\blank\.agents\workflows\graphify.md
+C:\citrixlabph\blank\README.md
+C:\citrixlabph\blank\hello-from-vitrixlab.md
+C:\citrixlabph\blank\ai\AI.png

@@ -1,0 +1,50 @@
+{
+  "ai/gpt.cpp": {
+    "mtime": 1789444272.2789,
+    "seen": 1789449107.931094,
+    "ast_hash": "b29a5b3051259903a3dc72637c667070",
+    "semantic_hash": ""
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1789442925.0620553,
+    "seen": 1789449107.931094,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": ""
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1789442925.0630498,
+    "seen": 1789449107.931094,
+    "ast_hash": "a831cf3669f1e6ab85d8a80ebe655f99",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1788204382.2302434,
+    "seen": 1789449107.931094,
+    "ast_hash": "a0f96eebcb18329f0c87ce1307b0da35",
+    "semantic_hash": ""
+  },
+  "ai/CMakeLists.txt": {
+    "mtime": 1789445587.4189389,
+    "seen": 1789449107.931094,
+    "ast_hash": "9014c82518898c3a85a6de618d662ca8",
+    "semantic_hash": ""
+  },
+  "ai/README.md": {
+    "mtime": 1789445645.1278915,
+    "seen": 1789449107.931094,
+    "ast_hash": "5f56eb37b80ad3e3596142c7d0b19165",
+    "semantic_hash": ""
+  },
+  "hello-from-vitrixlab.md": {
+    "mtime": 1788204382.2402153,
+    "seen": 1789449107.931094,
+    "ast_hash": "68b329da9893e34099c7d8ad5cb9c940",
+    "semantic_hash": ""
+  },
+  "ai/AI.png": {
+    "mtime": 1788204382.2402153,
+    "seen": 1789449107.931094,
+    "ast_hash": "38eac37efe2d8b28a1bf83a7becc0a60",
+    "semantic_hash": ""
+  }
+}
