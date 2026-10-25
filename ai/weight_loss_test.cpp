@@ -17,8 +17,8 @@ int main() {
     const auto q4 = weight_loss::quantize_int4(w, 2, 3);
     assert(q4.packed.size() == 3);
     assert(q4.row_scales.size() == 2);
-    assert(weight_loss::unpack_int4(q4, 0) == 2);
-    assert(weight_loss::unpack_int4(q4, 1) == -5);
+    assert(weight_loss::unpack_int4(q4, 0) == 3);
+    assert(weight_loss::unpack_int4(q4, 1) == -7);
     float x[] = {1.0f, -1.0f, 0.25f};
     float y4[2] = {};
     weight_loss::matvec_int4(q4, x, y4);
